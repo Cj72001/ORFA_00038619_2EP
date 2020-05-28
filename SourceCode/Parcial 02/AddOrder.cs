@@ -46,26 +46,12 @@ namespace Parcial_02
             {
                 
                 string createdate = textBox1.Text;
-                
-                //var Product = comboBox2.SelectedItem.ToString();
-                string query = $"SELECT idProduct FROM product WHERE name = '{comboBox2.SelectedItem}'";
-                var dt = ConnectionDB.ExecuteQuery(query);
-                var dr = dt.Rows[0];
-                var idProduct = Convert.ToInt32(dr[0]);
-                
-                //int idUser = UserNonQuery.UserQueryId(textBox2.Text);
-                 query = $"SELECT idUser FROM appuser WHERE password = '{textBox2.Text}'";
-                 dt = ConnectionDB.ExecuteQuery(query);
-                 dr = dt.Rows[0];
-                var idUser = Convert.ToInt32(dr[0].ToString());
 
-                //int idAddress = AddressNonQuery.AddressQueryId(idUser);
-                 query = $"SELECT idAddress FROM address WHERE idUser = {idUser}";
-                 dt = ConnectionDB.ExecuteQuery(query);
-                 dr = dt.Rows[0];
-                var idAddress = Convert.ToInt32(dr[0].ToString());
-                
-                
+                var Product = comboBox2.SelectedItem.ToString();
+                int idProduct = ProductNonQuery.ProductQueryid(Product);
+                int idUser = UserNonQuery.UserQueryId(textBox2.Text); 
+                int idAddress = AddressNonQuery.AddressQueryId(idUser);
+
                 OrderNonQuery.AddOrder(createdate, idProduct, idAddress);
             }
         }

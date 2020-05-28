@@ -18,19 +18,31 @@ namespace Parcial_02
         public Form2()
         {
             InitializeComponent();
-            current = addOrder;
+            current = deleteOrder;
         }
 
-        
-        private void Form2_Load(object sender, EventArgs e)
-        {
-            
-        }
 
         //Ver ordenes
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            try
+            {
+                var dt = ConnectionDB.ExecuteQuery($"SELECT usu.fullname, pro.name, busi.name " +
+                                                     "FROM APPUSER usu, PRODUCT pro, BUSINESS busi, APPORDER ord, ADDRESS ad " +
+                                                     $"WHERE ord.idAddress = ad.idAddress " +
+                                                     $"AND pro.idProduct = ord.idProduct ");
+                 
+                    
+                 
+                
+
+                dataGridView1.DataSource = dt;
+                MessageBox.Show("Datos actualizados");
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show("Ha ocurrido un problema");
+            }
         }
 
         //AddOrder

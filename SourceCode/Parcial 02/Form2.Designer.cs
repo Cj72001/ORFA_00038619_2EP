@@ -49,6 +49,7 @@ namespace Parcial_02
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
+            this.deleteOrder1 = new Parcial_02.DeleteOrder();
             this.tableLayoutPanel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -118,6 +119,7 @@ namespace Parcial_02
                 new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.Controls.Add(this.button6, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.button7, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.deleteOrder1, 0, 1);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 2);
             this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -159,11 +161,11 @@ namespace Parcial_02
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.tableLayoutPanel2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 34);
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage2.Size = new System.Drawing.Size(875, 520);
+            this.tabPage2.Size = new System.Drawing.Size(874, 525);
             this.tabPage2.TabIndex = 2;
             this.tabPage2.Text = "Direccion";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -191,7 +193,7 @@ namespace Parcial_02
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.04651F));
             this.tableLayoutPanel2.RowStyles.Add(
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 88.95349F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(869, 516);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(868, 521);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // button3
@@ -201,7 +203,7 @@ namespace Parcial_02
             this.button3.Location = new System.Drawing.Point(581, 2);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(285, 52);
+            this.button3.Size = new System.Drawing.Size(284, 53);
             this.button3.TabIndex = 3;
             this.button3.Text = "Eliminar direccion";
             this.button3.UseVisualStyleBackColor = true;
@@ -214,7 +216,7 @@ namespace Parcial_02
             this.button2.Location = new System.Drawing.Point(301, 2);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(274, 52);
+            this.button2.Size = new System.Drawing.Size(274, 53);
             this.button2.TabIndex = 2;
             this.button2.Text = "Modificar direccion";
             this.button2.UseVisualStyleBackColor = true;
@@ -227,7 +229,7 @@ namespace Parcial_02
             this.button5.Location = new System.Drawing.Point(3, 2);
             this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(292, 52);
+            this.button5.Size = new System.Drawing.Size(292, 53);
             this.button5.TabIndex = 1;
             this.button5.Text = "Agregar direccion";
             this.button5.UseVisualStyleBackColor = true;
@@ -238,20 +240,20 @@ namespace Parcial_02
             this.addAddress1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tableLayoutPanel2.SetColumnSpan(this.addAddress1, 3);
             this.addAddress1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addAddress1.Location = new System.Drawing.Point(3, 60);
+            this.addAddress1.Location = new System.Drawing.Point(3, 61);
             this.addAddress1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.addAddress1.Name = "addAddress1";
-            this.addAddress1.Size = new System.Drawing.Size(863, 452);
+            this.addAddress1.Size = new System.Drawing.Size(862, 456);
             this.addAddress1.TabIndex = 4;
             // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.tableLayoutPanel3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 29);
+            this.tabPage3.Location = new System.Drawing.Point(4, 34);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage3.Size = new System.Drawing.Size(874, 525);
+            this.tabPage3.Size = new System.Drawing.Size(875, 520);
             this.tabPage3.TabIndex = 3;
             this.tabPage3.Text = "Pedidos";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -273,7 +275,7 @@ namespace Parcial_02
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(868, 521);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(869, 516);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
             // dataGridView1
@@ -285,13 +287,13 @@ namespace Parcial_02
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(648, 517);
+            this.dataGridView1.Size = new System.Drawing.Size(649, 512);
             this.dataGridView1.TabIndex = 0;
             // 
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Location = new System.Drawing.Point(657, 223);
+            this.button1.Location = new System.Drawing.Point(658, 221);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(208, 74);
@@ -299,6 +301,17 @@ namespace Parcial_02
             this.button1.Text = "Actualizar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // deleteOrder1
+            // 
+            this.deleteOrder1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel4.SetColumnSpan(this.deleteOrder1, 2);
+            this.deleteOrder1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.deleteOrder1.Location = new System.Drawing.Point(3, 60);
+            this.deleteOrder1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.deleteOrder1.Name = "deleteOrder1";
+            this.deleteOrder1.Size = new System.Drawing.Size(863, 452);
+            this.deleteOrder1.TabIndex = 3;
             // 
             // Form2
             // 
@@ -310,7 +323,6 @@ namespace Parcial_02
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form2";
             this.Text = "HUGO";
-            this.Load += new System.EventHandler(this.Form2_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -341,5 +353,6 @@ namespace Parcial_02
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TabPage tabPage2;
+        private Parcial_02.DeleteOrder deleteOrder1;
     }
 }

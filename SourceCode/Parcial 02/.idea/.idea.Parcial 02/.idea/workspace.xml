@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ba92991-5fc2-4dbe-84df-ff55a647c878" name="Default Changelist" comment="" />
+    <list default="true" id="6ba92991-5fc2-4dbe-84df-ff55a647c878" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Parcial 02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Parcial 02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddOrder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AddOrder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form2.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Form2.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Form2.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/AddProduct.Designer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,7 +64,6 @@
       <list>
         <option value="$PROJECT_DIR$/ConectionDB.cs" />
         <option value="$PROJECT_DIR$/User.cs" />
-        <option value="$PROJECT_DIR$/Form2.Designer.cs" />
         <option value="$PROJECT_DIR$/ConnectionDB.cs" />
         <option value="$PROJECT_DIR$/Form4.Designer.cs" />
         <option value="$PROJECT_DIR$/Form4.cs" />
@@ -85,7 +92,6 @@
         <option value="$PROJECT_DIR$/ModifyAddress.cs" />
         <option value="$PROJECT_DIR$/DeleteOrder.Designer.cs" />
         <option value="$PROJECT_DIR$/DeleteOrder.cs" />
-        <option value="$PROJECT_DIR$/Form2.cs" />
         <option value="$PROJECT_DIR$/Form1.cs" />
         <option value="$PROJECT_DIR$/BusinessNonQuery.cs" />
         <option value="$PROJECT_DIR$/AddProduct.cs" />
@@ -97,10 +103,13 @@
         <option value="$PROJECT_DIR$/ProductNonQuery.cs" />
         <option value="$PROJECT_DIR$/AddressNonQuery.cs" />
         <option value="$PROJECT_DIR$/AddOrder.cs" />
+        <option value="$PROJECT_DIR$/Form2.Designer.cs" />
+        <option value="$PROJECT_DIR$/Form2.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1cUsym7q2ODXmGFwphpqVRCQJtS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -109,6 +118,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -158,7 +168,7 @@
       <workItem from="1590634600631" duration="3108000" />
       <workItem from="1590638285245" duration="2522000" />
       <workItem from="1590640966413" duration="13711000" />
-      <workItem from="1590655906541" duration="7000000" />
+      <workItem from="1590655906541" duration="8041000" />
     </task>
     <servers />
   </component>
@@ -172,30 +182,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="499" height="466" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1590658885171" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1590663961808">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1590666327689">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.914.646@0.0.1280.680" timestamp="1590653398340" />
     <state width="871" height="85" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.914.646@1920.0.914.646" timestamp="1590620656469" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590663961808" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1590663961808">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590666327689" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1590666327688">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.914.646@0.0.1280.680" timestamp="1590653398340" />
     <state width="871" height="85" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.914.646@1920.0.914.646" timestamp="1590620656469" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590663961808" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1590663961808">
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590666327688" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1590666327688">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.914.646@0.0.1280.680" timestamp="1590653398340" />
     <state width="871" height="85" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.914.646@1920.0.914.646" timestamp="1590620656469" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590663961808" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1590663961808">
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590666327688" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1590666327688">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.914.646@0.0.1280.680" timestamp="1590653398340" />
     <state width="871" height="85" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.914.646@1920.0.914.646" timestamp="1590620656469" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590663961808" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590666327688" />
     <state width="1237" height="74" key="GridCell.Tab.1.bottom" timestamp="1590663292029">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -284,45 +294,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/AddOrder.cs</url>
-          <line>49</line>
-          <properties documentPath="$PROJECT_DIR$/AddOrder.cs" initialLine="49">
-            <startOffsets>
-              <option value="1423" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1468" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/AddOrder.cs</url>
-          <line>61</line>
-          <properties documentPath="$PROJECT_DIR$/AddOrder.cs" initialLine="54">
-            <startOffsets>
-              <option value="2079" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2134" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/AddOrder.cs</url>
-          <line>68</line>
-          <properties documentPath="$PROJECT_DIR$/AddOrder.cs" initialLine="56">
-            <startOffsets>
-              <option value="2425" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2482" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/AddUser.cs</url>
           <line>25</line>

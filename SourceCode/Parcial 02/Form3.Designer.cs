@@ -52,9 +52,9 @@ namespace Parcial_02
             this.button4 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.addBusiness1 = new Parcial_02.AddBusiness();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.addBusiness1 = new Parcial_02.AddBusiness();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -353,17 +353,6 @@ namespace Parcial_02
             this.tableLayoutPanel4.Size = new System.Drawing.Size(628, 521);
             this.tableLayoutPanel4.TabIndex = 3;
             // 
-            // addBusiness1
-            // 
-            this.addBusiness1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.tableLayoutPanel4.SetColumnSpan(this.addBusiness1, 2);
-            this.addBusiness1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addBusiness1.Location = new System.Drawing.Point(3, 61);
-            this.addBusiness1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.addBusiness1.Name = "addBusiness1";
-            this.addBusiness1.Size = new System.Drawing.Size(622, 456);
-            this.addBusiness1.TabIndex = 4;
-            // 
             // button1
             // 
             this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -388,6 +377,17 @@ namespace Parcial_02
             this.button2.Text = "Eliminar Negocio";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
+            // addBusiness1
+            // 
+            this.addBusiness1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel4.SetColumnSpan(this.addBusiness1, 2);
+            this.addBusiness1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.addBusiness1.Location = new System.Drawing.Point(3, 61);
+            this.addBusiness1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.addBusiness1.Name = "addBusiness1";
+            this.addBusiness1.Size = new System.Drawing.Size(622, 456);
+            this.addBusiness1.TabIndex = 4;
             // 
             // tableLayoutPanel1
             // 
@@ -427,7 +427,7 @@ namespace Parcial_02
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
+            this.Text = "HUGO";
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
