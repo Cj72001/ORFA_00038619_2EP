@@ -40,13 +40,15 @@ namespace Preparcial.Vista
             dgvAllOrders.DataSource = ControladorPedido.GetPedidosTable();
         }
 
-        // private void ActualizarOrdenesUsuario()
-        // {
-        //     dgvMyOrders.DataSource = ControladorPedido.GetPedidosUsuarioTable(u.IdUsuario);
-        //     cmbProductMakeOrder.ValueMember = "idarticulo";
-        //     cmbProductMakeOrder.DisplayMember = "producto";
-        //     cmbProductMakeOrder.DataSource = ControladorInventario.GetProductos();
-        // }
+        private void ActualizarOrdenesUsuario()
+        {
+            dgvMyOrders.DataSource = ControladorPedido.GetPedidosUsuarioTable(u.IdUsuario);
+            //Correcion: inicializando cmbProductMakeOrder
+            cmbProductMakeOrder.DataSource = null;
+            cmbProductMakeOrder.ValueMember = "idArticulo";
+            cmbProductMakeOrder.DisplayMember = "producto";
+            cmbProductMakeOrder.DataSource =  ControladorInventario.GetProductos();
+        }
         
         
         private void bttnAddInventary_Click(object sender, EventArgs e)
@@ -101,7 +103,13 @@ namespace Preparcial.Vista
 
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (tabControl1.SelectedTab.Name.Equals("createNewUserTab") && u.Admin)
+            //Correcion: Agregar la pestana principal para que no salga el MessageBox "No tiene permisos para ver esta pestana"
+            if (tabControl1.SelectedTab.Name.Equals("generalTab"))
+            {
+                
+            }
+            
+            else if (tabControl1.SelectedTab.Name.Equals("createNewUserTab") && u.Admin)
                 ActualizarCrearUsuario();
 
             else if (tabControl1.SelectedTab.Name.Equals("inventaryTab") && u.Admin)
@@ -126,21 +134,7 @@ namespace Preparcial.Vista
         {
     Application.Exit();
         }
-
-        // private void FrmMain_Load(object sender, EventArgs e)
-        // {
-        //     //Correcion: Actualizar articulos al cargar el frm
-        //     ActualizarOrdenesUsuario();
-        // }
         
-        private void ActualizarOrdenesUsuario()
-        {
-            dgvMyOrders.DataSource = ControladorPedido.GetPedidosUsuarioTable(u.IdUsuario);
-            //Correcion: inicializando cmbProductMakeOrder
-            cmbProductMakeOrder.DataSource = null;
-            cmbProductMakeOrder.ValueMember = "idArticulo";
-            cmbProductMakeOrder.DisplayMember = "producto";
-            cmbProductMakeOrder.DataSource =  ControladorInventario.GetProductos();
-        }
+        
     }
 }

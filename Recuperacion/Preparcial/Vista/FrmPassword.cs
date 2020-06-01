@@ -28,10 +28,11 @@ namespace Preparcial.Vista
 
 private void ActualizarControlers()
 {
- 
-comboBox1.ValueMember = "Contrasena";
-comboBox1.DataSource = ControladorUsuario.GetUsuarios();
-comboBox1.DisplayMember = "NombreUsuario";
+    //Correcion: Inicializar comboBox1
+    comboBox1.DataSource = null;
+    comboBox1.ValueMember = "Contrasena"; 
+    comboBox1.DataSource = ControladorUsuario.GetUsuarios(); 
+    comboBox1.DisplayMember = "NombreUsuario";
 }
 
 private void Button1_Click(object sender, EventArgs e)
@@ -40,10 +41,14 @@ if (txtOldPassword.Text.Equals(comboBox1.SelectedValue.ToString()))
 {       
 var obtenerUsuario = (Usuario)comboBox1.SelectedItem;
 
-ActualizarControlers();
+
 
 ControladorUsuario.ActualizarContrasena(obtenerUsuario.IdUsuario,
 txtNewPassword.Text);
+
+//Correcion: Mandar a llamar el metodo "ActualizarControlers()" despues de actualizar contrasena, para que se pueda 
+//           cambiar la contrasena nueva
+ActualizarControlers();
 
 }
 else

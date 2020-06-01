@@ -28,18 +28,15 @@ namespace Preparcial
         private void PoblarControlers()
         {
             cmbUser.DataSource = null;
-            //Correcion: En el objeto "Usuario" el get es "Contrasena" no Contrasenia
-             cmbUser.ValueMember = "Contrasena";
-             cmbUser.DisplayMember = "NombreUsuario";
-             cmbUser.DataSource = ControladorUsuario.GetUsuarios();
+            //Correcion: Cambiar "Contrasenia" a Contrasena, por el atributo de Usuario
+            cmbUser.ValueMember = "Contrasena";
+            cmbUser.DisplayMember = "NombreUsuario";
+            cmbUser.DataSource = ControladorUsuario.GetUsuarios();
         }
         
 
         private void BttnLogin_Click(object sender, EventArgs e)
         {
-            // var obtenerUsuario = (Usuario)cmbUser.SelectedItem;
-            //
-            // PoblarControlers();
 
             if (textBox1.Text.Equals(cmbUser.SelectedValue.ToString()))
             {
@@ -55,11 +52,11 @@ namespace Preparcial
         
         private void BttnUpdatePassword_Click(object sender, EventArgs e)
         {
+            //Correcion: Poner el metodo "ShowDialog()" para que despues de actualizar contrasena pueda volver a poblar controles
             FrmPassword frmPassword = new FrmPassword();
-            frmPassword.Show();
-            
-            //Correcion: Volver a poblar los controles por si se cambio la contrasena antes de ingresar
-            // PoblarControlers();
+            frmPassword.ShowDialog();
+            //Correcion: agregar metodo "PoblarControles()" para que se actualice la constrasena si se cambio
+            PoblarControlers();
         }
     }
 }

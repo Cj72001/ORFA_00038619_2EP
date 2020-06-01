@@ -13,7 +13,6 @@ namespace Preparcial.Controlador
         {
             DataTable productos = null;
 
-            
             try
             {
                 productos = ConexionBD.EjecutarConsulta("SELECT * FROM INVENTARIO");
@@ -32,7 +31,7 @@ namespace Preparcial.Controlador
             var productos = new List<Inventario>();
             DataTable tableArticulos = null;
             
-            //Correcion: Poner Try catch solamente en la consulta
+            //Correcion: Poner try catch solamente en la consulta
             try
             {
                 tableArticulos = ConexionBD.EjecutarConsulta("SELECT * FROM INVENTARIO");

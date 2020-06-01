@@ -1,41 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bc69c39-3fc1-4652-a947-b125cd397ce5" name="Default Changelist" comment="" />
+    <list default="true" id="1bc69c39-3fc1-4652-a947-b125cd397ce5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Preparcial/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Preparcial/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Preparcial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Preparcial/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controlador/ControladorInventario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controlador/ControladorInventario.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controlador/ControladorPedido.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controlador/ControladorPedido.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo/Inventario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Inventario.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelo/Usuario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/Usuario.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/FrmLogin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/FrmLogin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/FrmMain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/FrmMain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/FrmPassword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/FrmPassword.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Preparcial.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Preparcial.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Preparcial.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Preparcial.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Preparcial.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Preparcial.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Preparcial.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Preparcial.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Preparcial.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Preparcial.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Preparcial.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Preparcial.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Modelo/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Modelo/Inventario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/FrmLogin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/FrmMain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controlador/ControladorInventario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/FrmMain.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controlador/ConexionBD.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controlador/ControladorUsuario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controlador/ControladorPedido.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/FrmLogin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vista/FrmPassword.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/FrmMain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/FrmMain.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controlador/ControladorUsuario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Modelo/Inventario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Modelo/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modelo/Pedido.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controlador/ConexionBD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controlador/ControladorPedido.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Controlador/ConexionBD.cs" />
-        <option value="$PROJECT_DIR$/Controlador/ControladorPedido.cs" />
         <option value="$PROJECT_DIR$/Controlador/ControladorUsuario.cs" />
-        <option value="$PROJECT_DIR$/Vista/FrmPassword.cs" />
-        <option value="$PROJECT_DIR$/Vista/FrmLogin.cs" />
-        <option value="$PROJECT_DIR$/Controlador/ControladorInventario.cs" />
-        <option value="$PROJECT_DIR$/Modelo/Inventario.cs" />
-        <option value="$PROJECT_DIR$/Vista/FrmMain.cs" />
         <option value="$PROJECT_DIR$/Vista/FrmMain.Designer.cs" />
+        <option value="$PROJECT_DIR$/Modelo/Usuario.cs" />
+        <option value="$PROJECT_DIR$/Controlador/ControladorPedido.cs" />
+        <option value="$PROJECT_DIR$/Controlador/ControladorInventario.cs" />
+        <option value="$PROJECT_DIR$/Vista/FrmLogin.cs" />
+        <option value="$PROJECT_DIR$/Vista/FrmMain.cs" />
+        <option value="$PROJECT_DIR$/Vista/FrmPassword.cs" />
+        <option value="$PROJECT_DIR$/Modelo/Inventario.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1cbFA5GLZtAqKKw53il44Z9fH3U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -44,6 +65,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -85,6 +107,9 @@
       <workItem from="1590789242120" duration="23280000" />
       <workItem from="1590820481630" duration="6629000" />
       <workItem from="1590899949832" duration="10107000" />
+      <workItem from="1590971408586" duration="3418000" />
+      <workItem from="1590982065842" duration="35000" />
+      <workItem from="1590982125765" duration="4851000" />
     </task>
     <servers />
   </component>
@@ -94,94 +119,94 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="WindowStateProjectService">
-    <state width="582" height="438" key="DebuggerActiveHint" timestamp="1590908608840">
+    <state width="582" height="438" key="DebuggerActiveHint" timestamp="1590980198843">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="582" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1590908608840" />
-    <state width="1237" height="173" key="GridCell.Tab.0.bottom" timestamp="1590908469405">
+    <state width="582" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1590980198843" />
+    <state width="1237" height="47" key="GridCell.Tab.0.bottom" timestamp="1590987126141">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590908469405" />
-    <state width="1237" height="173" key="GridCell.Tab.0.center" timestamp="1590908469404">
+    <state width="1237" height="47" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590987126141" />
+    <state width="1237" height="47" key="GridCell.Tab.0.center" timestamp="1590987126140">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590908469404" />
-    <state width="1237" height="173" key="GridCell.Tab.0.left" timestamp="1590908469404">
+    <state width="1237" height="47" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590987126140" />
+    <state width="1237" height="47" key="GridCell.Tab.0.left" timestamp="1590987126140">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590908469404" />
-    <state width="1237" height="173" key="GridCell.Tab.0.right" timestamp="1590908469405">
+    <state width="1237" height="47" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590987126140" />
+    <state width="1237" height="47" key="GridCell.Tab.0.right" timestamp="1590987126140">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590908469405" />
-    <state width="1237" height="173" key="GridCell.Tab.1.bottom" timestamp="1590908475917">
+    <state width="1237" height="47" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590987126140" />
+    <state width="1237" height="138" key="GridCell.Tab.1.bottom" timestamp="1590980863715">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590908475917" />
-    <state width="1237" height="173" key="GridCell.Tab.1.center" timestamp="1590908475916">
+    <state width="1237" height="138" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590980863715" />
+    <state width="1237" height="138" key="GridCell.Tab.1.center" timestamp="1590980863715">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1590908475916" />
-    <state width="1237" height="173" key="GridCell.Tab.1.left" timestamp="1590908475916">
+    <state width="1237" height="138" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1590980863715" />
+    <state width="1237" height="138" key="GridCell.Tab.1.left" timestamp="1590980863715">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1590908475916" />
-    <state width="1237" height="173" key="GridCell.Tab.1.right" timestamp="1590908475917">
+    <state width="1237" height="138" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1590980863715" />
+    <state width="1237" height="138" key="GridCell.Tab.1.right" timestamp="1590980863715">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1590908475917" />
-    <state width="1237" height="173" key="GridCell.Tab.2.bottom" timestamp="1590908469014">
+    <state width="1237" height="138" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1590980863715" />
+    <state width="1237" height="138" key="GridCell.Tab.2.bottom" timestamp="1590980863717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590908469014" />
-    <state width="1237" height="173" key="GridCell.Tab.2.center" timestamp="1590908469014">
+    <state width="1237" height="138" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590980863717" />
+    <state width="1237" height="138" key="GridCell.Tab.2.center" timestamp="1590980863715">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1590908469014" />
-    <state width="1237" height="173" key="GridCell.Tab.2.left" timestamp="1590908469014">
+    <state width="1237" height="138" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1590980863715" />
+    <state width="1237" height="138" key="GridCell.Tab.2.left" timestamp="1590980863715">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1590908469014" />
-    <state width="1237" height="173" key="GridCell.Tab.2.right" timestamp="1590908469014">
+    <state width="1237" height="138" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1590980863715" />
+    <state width="1237" height="138" key="GridCell.Tab.2.right" timestamp="1590980863716">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1590908469014" />
-    <state width="1237" height="173" key="GridCell.Tab.3.bottom" timestamp="1590908469015">
+    <state width="1237" height="138" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1590980863716" />
+    <state width="1237" height="138" key="GridCell.Tab.3.bottom" timestamp="1590980863717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590908469015" />
-    <state width="1237" height="173" key="GridCell.Tab.3.center" timestamp="1590908469014">
+    <state width="1237" height="138" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590980863717" />
+    <state width="1237" height="138" key="GridCell.Tab.3.center" timestamp="1590980863717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1590908469014" />
-    <state width="1237" height="173" key="GridCell.Tab.3.left" timestamp="1590908469014">
+    <state width="1237" height="138" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1590980863717" />
+    <state width="1237" height="138" key="GridCell.Tab.3.left" timestamp="1590980863717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1590908469014" />
-    <state width="1237" height="173" key="GridCell.Tab.3.right" timestamp="1590908469014">
+    <state width="1237" height="138" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1590980863717" />
+    <state width="1237" height="138" key="GridCell.Tab.3.right" timestamp="1590980863717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1590908469014" />
-    <state width="1237" height="173" key="GridCell.Tab.4.bottom" timestamp="1590908469015">
+    <state width="1237" height="138" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1590980863717" />
+    <state width="1237" height="138" key="GridCell.Tab.4.bottom" timestamp="1590980863717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.4.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590908469015" />
-    <state width="1237" height="173" key="GridCell.Tab.4.center" timestamp="1590908469015">
+    <state width="1237" height="138" key="GridCell.Tab.4.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590980863717" />
+    <state width="1237" height="138" key="GridCell.Tab.4.center" timestamp="1590980863717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.4.center/0.0.1280.680@0.0.1280.680" timestamp="1590908469015" />
-    <state width="1237" height="173" key="GridCell.Tab.4.left" timestamp="1590908469015">
+    <state width="1237" height="138" key="GridCell.Tab.4.center/0.0.1280.680@0.0.1280.680" timestamp="1590980863717" />
+    <state width="1237" height="138" key="GridCell.Tab.4.left" timestamp="1590980863717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.4.left/0.0.1280.680@0.0.1280.680" timestamp="1590908469015" />
-    <state width="1237" height="173" key="GridCell.Tab.4.right" timestamp="1590908469015">
+    <state width="1237" height="138" key="GridCell.Tab.4.left/0.0.1280.680@0.0.1280.680" timestamp="1590980863717" />
+    <state width="1237" height="138" key="GridCell.Tab.4.right" timestamp="1590980863717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="173" key="GridCell.Tab.4.right/0.0.1280.680@0.0.1280.680" timestamp="1590908469015" />
-    <state width="647" height="341" key="XDebugger.FullValuePopup" timestamp="1590908569090">
+    <state width="1237" height="138" key="GridCell.Tab.4.right/0.0.1280.680@0.0.1280.680" timestamp="1590980863717" />
+    <state width="647" height="341" key="XDebugger.FullValuePopup" timestamp="1590979664321">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="647" height="341" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1590908569090" />
+    <state width="647" height="341" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1590979664321" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1590907458248">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -190,76 +215,5 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1590818427050" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Controlador/ControladorInventario.cs</url>
-          <line>58</line>
-          <properties documentPath="$PROJECT_DIR$/Controlador/ControladorInventario.cs" initialLine="57">
-            <startOffsets>
-              <option value="1569" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1586" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Vista/FrmLogin.cs</url>
-          <line>51</line>
-          <properties documentPath="$PROJECT_DIR$/Vista/FrmLogin.cs" initialLine="57">
-            <startOffsets>
-              <option value="1444" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1485" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Vista/FrmPassword.cs</url>
-          <line>44</line>
-          <properties documentPath="$PROJECT_DIR$/Vista/FrmPassword.cs" initialLine="44">
-            <startOffsets>
-              <option value="1107" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1194" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Vista/FrmMain.cs</url>
-          <line>143</line>
-          <properties documentPath="$PROJECT_DIR$/Vista/FrmMain.cs" initialLine="143">
-            <startOffsets>
-              <option value="5021" />
-            </startOffsets>
-            <endOffsets>
-              <option value="5022" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Vista/FrmLogin.cs</url>
-          <line>34</line>
-          <properties documentPath="$PROJECT_DIR$/Vista/FrmLogin.cs" initialLine="34">
-            <startOffsets>
-              <option value="955" />
-            </startOffsets>
-            <endOffsets>
-              <option value="956" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

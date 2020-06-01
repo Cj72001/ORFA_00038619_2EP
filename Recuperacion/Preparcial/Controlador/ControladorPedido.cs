@@ -12,8 +12,8 @@ namespace Preparcial.Controlador
 
             try
             {
-                //Correcion: En la bd es nombreArt, no "nombreArticulo"
-                pedidos = ConexionBD.EjecutarConsulta("SELECT p.idPedido, i.nombreArt, p.cantidad, i.precio, (i.precio * p.cantidad) AS total " +
+                
+                pedidos = ConexionBD.EjecutarConsulta("SELECT p.idPedido, i.nombreArt, p.cantidad, i.precio " +
                                             " FROM PEDIDO p, INVENTARIO i, USUARIO u " +
                                             " WHERE p.idArticulo = i.idArticulo " +
                                             " AND p.idUsuario = u.idUsuario " +
@@ -33,7 +33,7 @@ namespace Preparcial.Controlador
 
             try
             {
-                pedidos = ConexionBD.EjecutarConsulta("SELECT p.idPedido, i.nombreArticulo, p.cantidad, i.precio, (i.precio * p.cantidad) AS total" +
+                pedidos = ConexionBD.EjecutarConsulta("SELECT p.idPedido, i.nombreArt, p.cantidad, i.precio" +
                                             " FROM PEDIDO p, INVENTARIO i, USUARIO u" +
                                             " WHERE p.idArticulo = i.idArticulo" +
                                             " AND p.idUsuario = u.idUsuario");
